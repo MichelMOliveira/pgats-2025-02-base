@@ -25,6 +25,5 @@ jobs:
       - name: Run tests
         run: npm test
 
-  "scripts": {
-    "test": "mocha tests/**/*.test.js"
-  }
+scripts:
+  test: mocha tests/**/*.test.js
