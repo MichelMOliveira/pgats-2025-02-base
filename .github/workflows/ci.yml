@@ -24,6 +24,3 @@ jobs:
 
       - name: Run tests
         run: npm test
-
-      - name: Run Mocha tests
-        run: npx mocha tests/**/*.test.js
