@@ -8,7 +8,3 @@ app.get('/users/:id', (req, res) => {
 });
 
 module.exports = app;
-
-"scripts": {
-  "test": "mocha tests/**/*.test.js"
-}
